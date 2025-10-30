@@ -22,7 +22,7 @@ export default function App() {
       <button onClick={getAdvice}>Click Me!</button>
       {/* <textarea name="name"> </textarea> */}
       <Message number={number} country="Palestine" />
-      <Message number={number} country="Amman" />
+      <Message number={number} country="Ammana" />
     </div>
   );
 }
