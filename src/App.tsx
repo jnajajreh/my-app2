@@ -20,9 +20,10 @@ export default function App() {
     <div>
       <h1>{advice} </h1>
       <button onClick={getAdvice}>Click Me!</button>
-      {/* <textarea name="name"> </textarea> */}
+      <textarea name="name"> </textarea>
       <Message number={number} country="Palestine" />
       <Message number={number} country="Amman" />
+      <button>Submit</button>
     </div>
   );
 }
